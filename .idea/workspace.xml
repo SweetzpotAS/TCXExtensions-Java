@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778e7b7b-48c3-4968-be3d-e8f546ff59c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingTrackpointTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingTrackpointTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZRowingActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/builders/SZRowingActivityBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingActivityTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -13,6 +16,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tcxextensions$com_sweetzpot_tcxextensions_in_tcxextensions_test.coverage" NAME="com.sweetzpot.tcxextensions in tcxextensions_test Coverage Results" MODIFIED="1508165589307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sweetzpot.tcxextensions.*</FILTER>
+    </SUITE>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -56,11 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SZRowingTrackpointTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingTrackpointTest.java">
+      <file leaf-file-name="SZRowingActivityTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="41" column="113" lean-forward="false" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
+            <state relative-caret-position="350">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -385,6 +393,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/builders/SZBreathingTrackpointBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZBreathingTrackpointTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingTrackpointTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZHeartRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZRowingActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/builders/SZRowingActivityBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingActivityTest.java" />
       </list>
     </option>
   </component>
@@ -419,57 +431,6 @@
               <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tcxextensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcxextensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcxextensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tcxextensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcxextensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tcxextensions" type="462c0819:PsiDirectoryNode" />
-              <item name="builders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcxextensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcxextensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tcxextensions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCXExtensions-Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tcxextensions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -485,7 +446,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/tomasruizlopez/Development/TCXExtensions-Java/src/main/java/com/sweetzpot/tcxextensions/SZBreathingTrackpoint.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/tomasruizlopez/Development/TCXExtensions-Java/src/main/java/com/sweetzpot/tcxextensions/SZRowingActivity.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -507,7 +468,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SZRowingTrackpointTest">
+  <component name="RunManager" selected="JUnit.com.sweetzpot.tcxextensions in tcxextensions_test">
     <configuration name="SZBreathingTrackpointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -558,7 +519,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SZRawBreathingTest.serializesToTCXFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SZRowingActivityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.sweetzpot.tcxextensions.*" />
@@ -569,9 +530,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sweetzpot.tcxextensions" />
-      <option name="MAIN_CLASS_NAME" value="com.sweetzpot.tcxextensions.SZRawBreathingTest" />
-      <option name="METHOD_NAME" value="serializesToTCXFormat" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.sweetzpot.tcxextensions.SZRowingActivityTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -597,31 +558,6 @@
       <option name="MAIN_CLASS_NAME" value="com.sweetzpot.tcxextensions.SZRowingTrackpointTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SZRowingTrackpointTest.serializesToTCXFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sweetzpot.tcxextensions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tcxextensions_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sweetzpot.tcxextensions" />
-      <option name="MAIN_CLASS_NAME" value="com.sweetzpot.tcxextensions.SZRowingTrackpointTest" />
-      <option name="METHOD_NAME" value="serializesToTCXFormat" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -713,20 +649,45 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="com.sweetzpot.tcxextensions in tcxextensions_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sweetzpot.tcxextensions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tcxextensions_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sweetzpot.tcxextensions" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SZRowingTrackpointTest.serializesToTCXFormat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SZRawBreathingTest.serializesToTCXFormat" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest.serializesToTCXFormat" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SZRowingTrackpointTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest.serializesToTCXFormat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SZRowingTrackpointTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SZRowingActivityTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.com.sweetzpot.tcxextensions in tcxextensions_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SZRowingTrackpointTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest.serializesToTCXFormat" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SZRawBreathingTest.serializesToTCXFormat" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SZRowingTrackpointTest.serializesToTCXFormat" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.com.sweetzpot.tcxextensions in tcxextensions_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SZRowingActivityTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SZRowingTrackpointTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SZBreathingTrackpointTest.serializesToTCXFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -759,9 +720,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SZAccelerationTest_serializesAccelerationToXML - 2017.10.16 at 15h 48m 38s.xml">
-      <configuration name="SZAccelerationTest.serializesAccelerationToXML" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SZBreathingTrackpointTest - 2017.10.16 at 16h 38m 01s.xml">
       <configuration name="SZBreathingTrackpointTest" configurationId="JUnit" />
     </history-entry>
@@ -771,8 +729,14 @@
     <history-entry file="SZRawBreathingTest_serializesToTCXFormat - 2017.10.16 at 16h 18m 58s.xml">
       <configuration name="SZRawBreathingTest.serializesToTCXFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SZRawForceTest_serializesToTCXFormat - 2017.10.16 at 16h 01m 09s.xml">
-      <configuration name="SZRawForceTest.serializesToTCXFormat" configurationId="JUnit" />
+    <history-entry file="SZRowingActivityTest - 2017.10.16 at 16h 52m 03s.xml">
+      <configuration name="SZRowingActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SZRowingActivityTest - 2017.10.16 at 16h 52m 44s.xml">
+      <configuration name="SZRowingActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SZRowingActivityTest - 2017.10.16 at 16h 53m 03s.xml">
+      <configuration name="SZRowingActivityTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SZRowingTrackpointTest - 2017.10.16 at 16h 39m 03s.xml">
       <configuration name="SZRowingTrackpointTest" configurationId="JUnit" />
@@ -783,11 +747,8 @@
     <history-entry file="SZRowingTrackpointTest_serializesToTCXFormat - 2017.10.16 at 16h 15m 08s.xml">
       <configuration name="SZRowingTrackpointTest.serializesToTCXFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SZStrokeRateTest - 2017.10.16 at 15h 53m 13s.xml">
-      <configuration name="SZStrokeRateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SZStrokeRateTest - 2017.10.16 at 15h 57m 03s.xml">
-      <configuration name="SZStrokeRateTest" configurationId="JUnit" />
+    <history-entry file="com_sweetzpot_tcxextensions_in_tcxextensions_test - 2017.10.16 at 16h 53m 11s.xml">
+      <configuration name="com.sweetzpot.tcxextensions in tcxextensions_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -802,8 +763,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1053,8 +1015,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingTrackpointTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
+        <state relative-caret-position="612">
           <caret line="41" column="113" lean-forward="false" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
+          <folding>
+            <marker date="1508164727000" expanded="true" signature="45:269" ph="..." />
+            <marker date="1508164727000" expanded="true" signature="377:1256" ph="{...}" />
+            <marker date="1508164727000" expanded="true" signature="1345:1638" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZHeartRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sweetzpot.tcxzpot/lib/0.2.0/95e5827930e4fd0f6349bdf1acbf35487982c6fe/lib-0.2.0-sources.jar!/com/sweetzpot/tcxzpot/HeartRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1508149305000" expanded="false" signature="127:138" ph=" { " />
+            <marker date="1508149305000" expanded="false" signature="166:172" ph=" }" />
+            <marker date="1508149305000" expanded="false" signature="235:246" ph=" { " />
+            <marker date="1508149305000" expanded="false" signature="265:271" ph=" }" />
+            <marker date="1508149305000" expanded="false" signature="335:346" ph=" { " />
+            <marker date="1508149305000" expanded="false" signature="395:401" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/builders/SZRowingActivityBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="35" column="66" lean-forward="false" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+          <folding>
+            <marker date="1508165297000" expanded="true" signature="54:232" ph="..." />
+            <marker date="1508165297000" expanded="true" signature="422:433" ph=" { " />
+            <marker date="1508165297000" expanded="true" signature="470:476" ph=" }" />
+            <marker date="1508165297000" expanded="true" signature="596:660" ph="{...}" />
+            <marker date="1508165297000" expanded="true" signature="729:785" ph="{...}" />
+            <marker date="1508165297000" expanded="true" signature="869:935" ph="{...}" />
+            <marker date="1508165297000" expanded="true" signature="972:983" ph=" { " />
+            <marker date="1508165297000" expanded="true" signature="1041:1047" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZRowingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding>
+            <marker date="1508165156000" expanded="true" signature="45:161" ph="..." />
+            <marker date="1508165156000" expanded="true" signature="425:534" ph="{...}" />
+            <marker date="1508165156000" expanded="true" signature="599:1051" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
