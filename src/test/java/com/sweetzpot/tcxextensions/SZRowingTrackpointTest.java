@@ -31,4 +31,15 @@ public class SZRowingTrackpointTest {
         verify(rawForce).serialize(serializer);
         verify(serializer).print("</SZRowing>");
     }
+
+    @Test
+    public void serializesToTCXFormatWithMissingArguments() throws Exception {
+        Serializer serializer = mock(Serializer.class);
+
+        rowing().build()
+                .serialize(serializer);
+
+        verify(serializer).print("<SZRowing xmlns=\"https://www.sweetzpot.com/xmlschemas/RowingExtension/v1\">");
+        verify(serializer).print("</SZRowing>");
+    }
 }
