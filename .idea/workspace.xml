@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778e7b7b-48c3-4968-be3d-e8f546ff59c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZSpeed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZSpeedTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZRawForce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawForceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SZSpeedTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZSpeedTest.java">
+      <file leaf-file-name="SZRawForceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawForceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -377,6 +377,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZStrokeRateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZSpeedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZSpeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZRawForce.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawForceTest.java" />
       </list>
     </option>
   </component>
@@ -490,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SZStrokeRateTest">
+  <component name="RunManager" selected="JUnit.SZRawForceTest.serializesToTCXFormat">
     <configuration name="SZAccelerationTest.serializesAccelerationToXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -504,6 +506,31 @@
       <option name="PACKAGE_NAME" value="com.sweetzpot.tcxextensions" />
       <option name="MAIN_CLASS_NAME" value="com.sweetzpot.tcxextensions.SZAccelerationTest" />
       <option name="METHOD_NAME" value="serializesAccelerationToXML" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SZRawForceTest.serializesToTCXFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sweetzpot.tcxextensions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tcxextensions_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sweetzpot.tcxextensions" />
+      <option name="MAIN_CLASS_NAME" value="com.sweetzpot.tcxextensions.SZRawForceTest" />
+      <option name="METHOD_NAME" value="serializesToTCXFormat" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -621,14 +648,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SZAccelerationTest.serializesAccelerationToXML" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SZStrokeRateTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SZRawForceTest.serializesToTCXFormat" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SZStrokeRateTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SZAccelerationTest.serializesAccelerationToXML" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SZRawForceTest.serializesToTCXFormat" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SZStrokeRateTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SZAccelerationTest.serializesAccelerationToXML" />
       </list>
     </recent_temporary>
   </component>
@@ -664,6 +693,9 @@
     <history-entry file="SZAccelerationTest_serializesAccelerationToXML - 2017.10.16 at 15h 48m 38s.xml">
       <configuration name="SZAccelerationTest.serializesAccelerationToXML" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SZRawForceTest_serializesToTCXFormat - 2017.10.16 at 16h 01m 09s.xml">
+      <configuration name="SZRawForceTest.serializesToTCXFormat" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SZStrokeRateTest - 2017.10.16 at 15h 53m 13s.xml">
       <configuration name="SZStrokeRateTest" configurationId="JUnit" />
     </history-entry>
@@ -673,7 +705,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -688,7 +719,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -800,8 +831,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZSpeedTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1508162196000" expanded="true" signature="45:251" ph="..." />
+            <marker date="1508162196000" expanded="true" signature="348:523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZRawForce.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1508162362000" expanded="true" signature="45:124" ph="..." />
+            <marker date="1508162362000" expanded="true" signature="252:263" ph=" { " />
+            <marker date="1508162362000" expanded="true" signature="292:298" ph=" }" />
+            <marker date="1508162362000" expanded="true" signature="332:343" ph=" { " />
+            <marker date="1508162362000" expanded="true" signature="362:368" ph=" }" />
+            <marker date="1508162362000" expanded="true" signature="432:443" ph=" { " />
+            <marker date="1508162362000" expanded="true" signature="498:504" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawForceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
