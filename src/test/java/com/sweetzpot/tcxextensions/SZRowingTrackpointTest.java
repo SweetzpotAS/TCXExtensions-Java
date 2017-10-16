@@ -24,7 +24,7 @@ public class SZRowingTrackpointTest {
                 .build()
                 .serialize(serializer);
 
-        verify(serializer).print("<SZRowing xmlns=\"https://www.sweetzpot.com/xmlschema/RowingExtension/v1\">");
+        verify(serializer).print("<SZRowing xmlns=\"https://www.sweetzpot.com/xmlschemas/RowingExtension/v1\">");
         verify(acceleration).serialize(serializer);
         verify(speed).serialize(serializer);
         verify(strokeRate).serialize(serializer);

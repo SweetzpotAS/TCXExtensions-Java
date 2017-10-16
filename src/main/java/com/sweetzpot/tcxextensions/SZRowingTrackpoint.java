@@ -19,7 +19,7 @@ public class SZRowingTrackpoint implements TCXExtension {
 
     @Override
     public void serialize(Serializer serializer) {
-        serializer.print("<SZRowing xmlns=\"https://www.sweetzpot.com/xmlschema/RowingExtension/v1\">");
+        serializer.print("<SZRowing xmlns=\"https://www.sweetzpot.com/xmlschemas/RowingExtension/v1\">");
         if(acceleration != null) acceleration.serialize(serializer);
         if(speed != null) speed.serialize(serializer);
         if(strokeRate != null) strokeRate.serialize(serializer);
