@@ -2,3 +2,11 @@
 *.class
 
 local\.properties
+
+build/
+
+\.gradle/3\.5-rc-2/fileContent/
+
+\.gradle/3\.5-rc-2/taskHistory/
+
+\.idea/workspace\.xml
