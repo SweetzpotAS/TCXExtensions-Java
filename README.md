@@ -1,12 +1,12 @@
-# TCXExtensions
+## TCXExtensions
 
 TCXExtension is a library to include additional information about Rowing and Breathing into TCX files. It is designed to work with [TCXZpot](https://github.com/SweetzpotAS/TCXZpot-Java).
 
-## Usage
+### Usage
 
 TCX allows extensions in different nodes in the XML tree. Our extensions are designed to be included into `Trackpoint` nodes and `Activity`nodes, and they can hold information about Rowing or Breathing.
 
-### Trackpoint Extensions
+#### Trackpoint Extensions
 
 In **TCXZpot** you can create a `Trackpoint` with the following code:
 
@@ -52,7 +52,7 @@ aTrackpoint()
     .build();
 ```
 
-## Activity Extensions
+#### Activity Extensions
 
 In **TCXZpot** you can create an `Activity` with the following code:
 
@@ -87,7 +87,7 @@ activity(RUNNING)
     .build()
 ``` 
 
-## Download
+### Download
 
 You can get TCXExtensions from **JCenter** adding this to your Gradle build file:
 
@@ -95,7 +95,7 @@ You can get TCXExtensions from **JCenter** adding this to your Gradle build file
 compile 'com.sweetzpot.tcxextensions:lib:1.0.0'
 ```
 
-## License
+### License
 
     Copyright 2017 SweetZpot AS
 
