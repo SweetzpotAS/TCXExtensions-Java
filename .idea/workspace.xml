@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="778e7b7b-48c3-4968-be3d-e8f546ff59c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-    </list>
+    <list default="true" id="778e7b7b-48c3-4968-be3d-e8f546ff59c1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -63,12 +59,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1455">
+                <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -264,7 +263,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4524488289000" />
+        <entry key="$PROJECT_DIR$" value="4524493729000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3855297198" />
       </map>
     </option>
@@ -395,8 +394,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingActivityTest.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -416,7 +421,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -433,9 +437,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -752,34 +757,34 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -794,28 +799,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZAcceleration.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="405">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding>
-            <marker date="1508161505000" expanded="true" signature="45:124" ph="..." />
-            <marker date="1508161505000" expanded="true" signature="344:355" ph=" { " />
-            <marker date="1508161505000" expanded="true" signature="390:396" ph=" }" />
-            <marker date="1508161505000" expanded="true" signature="454:521" ph="{...}" />
-            <marker date="1508161505000" expanded="true" signature="586:820" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="72:108" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="122:396" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="141:151" ph="{" />
+            <marker date="1508166334000" expanded="true" signature="160:166" ph="}" />
+            <marker date="1508166334000" expanded="true" signature="184:394" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="410:456" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="429:439" ph="{" />
+            <marker date="1508166334000" expanded="true" signature="448:454" ph="}" />
+            <marker date="1508166334000" expanded="true" signature="471:606" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="612:1320" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZAccelerationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZAcceleration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <marker date="1508161621000" expanded="true" signature="46:256" ph="..." />
-            <marker date="1508161621000" expanded="true" signature="366:739" ph="{...}" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -823,25 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <marker date="1508161903000" expanded="true" signature="45:124" ph="..." />
-            <marker date="1508161903000" expanded="true" signature="280:291" ph=" { " />
-            <marker date="1508161903000" expanded="true" signature="333:339" ph=" }" />
-            <marker date="1508161903000" expanded="true" signature="386:397" ph=" { " />
-            <marker date="1508161903000" expanded="true" signature="438:444" ph=" }" />
-            <marker date="1508161903000" expanded="true" signature="509:595" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZStrokeRateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <marker date="1508161973000" expanded="true" signature="45:251" ph="..." />
-            <marker date="1508161973000" expanded="true" signature="353:529" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,26 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <marker date="1508162204000" expanded="true" signature="45:124" ph="..." />
-            <marker date="1508162204000" expanded="true" signature="279:290" ph=" { " />
-            <marker date="1508162204000" expanded="true" signature="326:332" ph=" }" />
-            <marker date="1508162204000" expanded="false" signature="376:387" ph=" { " />
-            <marker date="1508162204000" expanded="false" signature="426:432" ph=" }" />
-            <marker date="1508162204000" expanded="false" signature="496:507" ph=" { " />
-            <marker date="1508162204000" expanded="false" signature="566:572" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZSpeedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1508162196000" expanded="true" signature="45:251" ph="..." />
-            <marker date="1508162196000" expanded="true" signature="348:523" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,26 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <marker date="1508162362000" expanded="true" signature="45:124" ph="..." />
-            <marker date="1508162362000" expanded="true" signature="252:263" ph=" { " />
-            <marker date="1508162362000" expanded="true" signature="292:298" ph=" }" />
-            <marker date="1508162362000" expanded="true" signature="332:343" ph=" { " />
-            <marker date="1508162362000" expanded="true" signature="362:368" ph=" }" />
-            <marker date="1508162362000" expanded="true" signature="432:443" ph=" { " />
-            <marker date="1508162362000" expanded="true" signature="498:504" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawForceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding>
-            <marker date="1508162450000" expanded="true" signature="45:247" ph="..." />
-            <marker date="1508162450000" expanded="true" signature="347:521" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,16 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <marker date="1508163090000" expanded="true" signature="319:330" ph=" { " />
-            <marker date="1508163090000" expanded="true" signature="369:375" ph=" }" />
-            <marker date="1508163090000" expanded="true" signature="503:573" ph="{...}" />
-            <marker date="1508163090000" expanded="true" signature="637:693" ph="{...}" />
-            <marker date="1508163090000" expanded="true" signature="766:828" ph="{...}" />
-            <marker date="1508163090000" expanded="true" signature="907:973" ph="{...}" />
-            <marker date="1508163090000" expanded="true" signature="1012:1023" ph=" { " />
-            <marker date="1508163090000" expanded="true" signature="1096:1102" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,26 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <marker date="1508163456000" expanded="true" signature="45:124" ph="..." />
-            <marker date="1508163456000" expanded="true" signature="264:275" ph=" { " />
-            <marker date="1508163456000" expanded="true" signature="308:314" ph=" }" />
-            <marker date="1508163456000" expanded="true" signature="352:363" ph=" { " />
-            <marker date="1508163456000" expanded="true" signature="382:388" ph=" }" />
-            <marker date="1508163456000" expanded="true" signature="452:463" ph=" { " />
-            <marker date="1508163456000" expanded="true" signature="526:532" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawBreathingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <marker date="1508163519000" expanded="true" signature="45:255" ph="..." />
-            <marker date="1508163519000" expanded="true" signature="359:543" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,11 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <folding>
-            <marker date="1508163670000" expanded="true" signature="45:121" ph="..." />
-            <marker date="1508163670000" expanded="true" signature="465:614" ph="{...}" />
-            <marker date="1508163670000" expanded="true" signature="679:1083" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,14 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding>
-            <marker date="1508163825000" expanded="true" signature="54:155" ph="..." />
-            <marker date="1508163825000" expanded="true" signature="302:313" ph=" { " />
-            <marker date="1508163825000" expanded="true" signature="355:361" ph=" }" />
-            <marker date="1508163825000" expanded="true" signature="495:565" ph="{...}" />
-            <marker date="1508163825000" expanded="true" signature="607:618" ph=" { " />
-            <marker date="1508163825000" expanded="true" signature="665:671" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,59 +889,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <marker date="1508163727000" expanded="true" signature="45:121" ph="..." />
-            <marker date="1508163727000" expanded="false" signature="288:299" ph=" { " />
-            <marker date="1508163727000" expanded="false" signature="332:338" ph=" }" />
-            <marker date="1508163727000" expanded="true" signature="403:635" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZBreathingTrackpointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="119" lean-forward="false" selection-start-line="32" selection-start-column="119" selection-end-line="32" selection-end-column="119" />
-          <folding>
-            <marker date="1508164667000" expanded="true" signature="45:275" ph="..." />
-            <marker date="1508164667000" expanded="true" signature="386:857" ph="{...}" />
-            <marker date="1508164667000" expanded="true" signature="940:1245" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingTrackpointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="113" lean-forward="false" selection-start-line="41" selection-start-column="113" selection-end-line="41" selection-end-column="113" />
-          <folding>
-            <marker date="1508164727000" expanded="true" signature="45:269" ph="..." />
-            <marker date="1508164727000" expanded="true" signature="377:1256" ph="{...}" />
-            <marker date="1508164727000" expanded="true" signature="1345:1638" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZHeartRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sweetzpot/tcxextensions/SZHeartRate.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sweetzpot.tcxzpot/lib/0.2.0/95e5827930e4fd0f6349bdf1acbf35487982c6fe/lib-0.2.0-sources.jar!/com/sweetzpot/tcxzpot/HeartRate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <marker date="1508149305000" expanded="false" signature="127:138" ph=" { " />
-            <marker date="1508149305000" expanded="false" signature="166:172" ph=" }" />
-            <marker date="1508149305000" expanded="false" signature="235:246" ph=" { " />
-            <marker date="1508149305000" expanded="false" signature="265:271" ph=" }" />
-            <marker date="1508149305000" expanded="false" signature="335:346" ph=" { " />
-            <marker date="1508149305000" expanded="false" signature="395:401" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,16 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="35" column="66" lean-forward="false" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-          <folding>
-            <marker date="1508165297000" expanded="true" signature="54:232" ph="..." />
-            <marker date="1508165297000" expanded="true" signature="422:433" ph=" { " />
-            <marker date="1508165297000" expanded="true" signature="470:476" ph=" }" />
-            <marker date="1508165297000" expanded="true" signature="596:660" ph="{...}" />
-            <marker date="1508165297000" expanded="true" signature="729:785" ph="{...}" />
-            <marker date="1508165297000" expanded="true" signature="869:935" ph="{...}" />
-            <marker date="1508165297000" expanded="true" signature="972:983" ph=" { " />
-            <marker date="1508165297000" expanded="true" signature="1041:1047" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,23 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-          <folding>
-            <marker date="1508165156000" expanded="true" signature="45:161" ph="..." />
-            <marker date="1508165156000" expanded="true" signature="425:534" ph="{...}" />
-            <marker date="1508165156000" expanded="true" signature="599:1051" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1508165574000" expanded="true" signature="45:307" ph="..." />
-            <marker date="1508165574000" expanded="true" signature="413:1248" ph="{...}" />
-            <marker date="1508165574000" expanded="true" signature="1337:1630" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,9 +924,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
+        <state relative-caret-position="15">
           <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <marker date="1508166334000" expanded="true" signature="72:108" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="122:396" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="141:151" ph="{" />
+            <marker date="1508166334000" expanded="true" signature="160:166" ph="}" />
+            <marker date="1508166334000" expanded="true" signature="184:394" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="410:456" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="429:439" ph="{" />
+            <marker date="1508166334000" expanded="true" signature="448:454" ph="}" />
+            <marker date="1508166334000" expanded="true" signature="471:606" ph="{...}" />
+            <marker date="1508166334000" expanded="true" signature="612:1320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingTrackpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <marker date="1508164727000" expanded="false" signature="45:269" ph="..." />
+            <marker date="1508164727000" expanded="true" signature="377:1256" ph="{...}" />
+            <marker date="1508164727000" expanded="true" signature="1345:1638" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZAccelerationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <marker date="1508161621000" expanded="false" signature="46:256" ph="..." />
+            <marker date="1508161621000" expanded="true" signature="366:739" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZSpeedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <marker date="1508162196000" expanded="false" signature="45:251" ph="..." />
+            <marker date="1508162196000" expanded="true" signature="348:523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZStrokeRateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <marker date="1508161973000" expanded="false" signature="45:251" ph="..." />
+            <marker date="1508161973000" expanded="true" signature="353:529" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawForceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <marker date="1508162450000" expanded="false" signature="45:247" ph="..." />
+            <marker date="1508162450000" expanded="true" signature="347:521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZBreathingTrackpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <marker date="1508164667000" expanded="false" signature="45:275" ph="..." />
+            <marker date="1508164667000" expanded="true" signature="386:857" ph="{...}" />
+            <marker date="1508164667000" expanded="true" signature="940:1245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRawBreathingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <marker date="1508163519000" expanded="false" signature="45:255" ph="..." />
+            <marker date="1508163519000" expanded="true" signature="359:543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sweetzpot/tcxextensions/SZRowingActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <marker date="1508165574000" expanded="false" signature="45:307" ph="..." />
+            <marker date="1508165574000" expanded="true" signature="413:1248" ph="{...}" />
+            <marker date="1508165574000" expanded="true" signature="1337:1630" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1455">
+            <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
