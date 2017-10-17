@@ -3,6 +3,9 @@ version '1.0'
 
 apply plugin: 'java'
 
+targetCompatibility = '1.7'
+sourceCompatibility = '1.7'
+
 repositories {
     jcenter()
     mavenCentral()
@@ -44,7 +47,7 @@ ext {
     siteUrl = 'https://github.com/SweetzpotAS/TCXExtensions-Java'
     gitUrl = 'https://github.com/SweetzpotAS/TCXExtensions-Java.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'sweetzpot'
     developerName = 'SweetZpot AS'
