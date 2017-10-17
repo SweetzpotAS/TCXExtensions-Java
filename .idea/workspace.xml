@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="778e7b7b-48c3-4968-be3d-e8f546ff59c1" name="Default" comment="" />
+    <list default="true" id="778e7b7b-48c3-4968-be3d-e8f546ff59c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -63,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="301">
-                <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1042,8 +1044,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="301">
-            <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />

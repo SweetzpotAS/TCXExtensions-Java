@@ -1,4 +1,4 @@
-## TCXExtensions
+# TCXExtensions-Java
 
 TCXExtension is a library to include additional information about Rowing and Breathing into TCX files. It is designed to work with [TCXZpot](https://github.com/SweetzpotAS/TCXZpot-Java).
 
