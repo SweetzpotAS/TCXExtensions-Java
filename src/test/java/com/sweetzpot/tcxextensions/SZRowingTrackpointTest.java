@@ -29,6 +29,33 @@ public class SZRowingTrackpointTest {
         verify(speed).serialize(serializer);
         verify(strokeRate).serialize(serializer);
         verify(rawForce).serialize(serializer);
+        verify(serializer).print("<StrokeNumber>-1</StrokeNumber>");
+        verify(serializer).print("</SZRowing>");
+    }
+
+    @Test
+    public void serializesToTCXFormatWithStrokeNumber() throws Exception {
+        Serializer serializer = mock(Serializer.class);
+        SZAcceleration acceleration = mock(SZAcceleration.class);
+        SZSpeed speed = mock(SZSpeed.class);
+        SZStrokeRate strokeRate = mock(SZStrokeRate.class);
+        SZRawForce rawForce = mock(SZRawForce.class);
+        SZStrokeNumber strokeNumber = mock(SZStrokeNumber.class);
+
+        rowing().withAcceleration(acceleration)
+                .withSpeed(speed)
+                .withStrokeRate(strokeRate)
+                .withRawForce(rawForce)
+                .withStrokeNumber(strokeNumber)
+                .build()
+                .serialize(serializer);
+
+        verify(serializer).print("<SZRowing xmlns=\"https://www.sweetzpot.com/xmlschemas/RowingExtension/v1\">");
+        verify(acceleration).serialize(serializer);
+        verify(speed).serialize(serializer);
+        verify(strokeRate).serialize(serializer);
+        verify(rawForce).serialize(serializer);
+        verify(strokeNumber).serialize(serializer);
         verify(serializer).print("</SZRowing>");
     }
 
