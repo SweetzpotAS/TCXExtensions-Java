@@ -9,12 +9,14 @@ public class SZRowingTrackpoint implements TCXExtension {
     private final SZSpeed speed;
     private final SZStrokeRate strokeRate;
     private final SZRawForce rawForce;
+    private SZStrokeNumber strokeNumber;
 
-    public SZRowingTrackpoint(SZAcceleration acceleration, SZSpeed speed, SZStrokeRate strokeRate, SZRawForce rawForce) {
+    public SZRowingTrackpoint(SZAcceleration acceleration, SZSpeed speed, SZStrokeRate strokeRate, SZRawForce rawForce, SZStrokeNumber strokeNumber) {
         this.acceleration = acceleration;
         this.speed = speed;
         this.strokeRate = strokeRate;
         this.rawForce = rawForce;
+        this.strokeNumber = strokeNumber;
     }
 
     @Override
@@ -24,6 +26,7 @@ public class SZRowingTrackpoint implements TCXExtension {
         if(speed != null) speed.serialize(serializer);
         if(strokeRate != null) strokeRate.serialize(serializer);
         if(rawForce != null) rawForce.serialize(serializer);
+        if(strokeNumber != null) strokeNumber.serialize(serializer);
         serializer.print("</SZRowing>");
     }
 }
