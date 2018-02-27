@@ -8,7 +8,7 @@ public class SZRowingTrackpointBuilder {
     private SZSpeed speed;
     private SZRawForce rawForce;
     private SZStrokeRate strokeRate;
-    private SZStrokeNumber strokeNumber = SZStrokeNumber.strokeNumber(-1);
+    private SZStrokeNumber strokeNumber = null;
 
     public static SZRowingTrackpointBuilder rowing() {
         return new SZRowingTrackpointBuilder();
