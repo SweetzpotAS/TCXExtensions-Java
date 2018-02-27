@@ -29,7 +29,6 @@ public class SZRowingTrackpointTest {
         verify(speed).serialize(serializer);
         verify(strokeRate).serialize(serializer);
         verify(rawForce).serialize(serializer);
-        verify(serializer).print("<StrokeNumber>-1</StrokeNumber>");
         verify(serializer).print("</SZRowing>");
     }
 
