@@ -11,13 +11,6 @@ public class SZRowingTrackpoint implements TCXExtension {
     private final SZRawForce rawForce;
     private SZStrokeNumber strokeNumber;
 
-    public SZRowingTrackpoint(SZAcceleration acceleration, SZSpeed speed, SZStrokeRate strokeRate, SZRawForce rawForce) {
-        this.acceleration = acceleration;
-        this.speed = speed;
-        this.strokeRate = strokeRate;
-        this.rawForce = rawForce;
-    }
-
     public SZRowingTrackpoint(SZAcceleration acceleration, SZSpeed speed, SZStrokeRate strokeRate, SZRawForce rawForce, SZStrokeNumber strokeNumber) {
         this.acceleration = acceleration;
         this.speed = speed;
