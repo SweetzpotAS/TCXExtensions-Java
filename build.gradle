@@ -47,7 +47,7 @@ ext {
     siteUrl = 'https://github.com/SweetzpotAS/TCXExtensions-Java'
     gitUrl = 'https://github.com/SweetzpotAS/TCXExtensions-Java.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.2'
 
     developerId = 'sweetzpot'
     developerName = 'SweetZpot AS'
